@@ -9,6 +9,5 @@ const pages={home:`<main class="wrap main"><div class="home-grid"><div><p class=
      rel="noopener noreferrer">
     Google Scholar ↗
   </a>
-<div class="entry"><div class="year">To update</div><div><h3>Your conference publications and working papers</h3><p>Conference and preprint records will appear here.
 </p></div></div></main>`,teaching:`<main class="wrap main"><p class="eyebrow">Education</p><h1 class="page-title">Teaching</h1><p class="intro">Teaching activities in mathematics and electrical engineering, with an emphasis on connecting theory and practical applications.</p><section class="course"><h2>Linear Algebra</h2><p>Systems of linear equations, vector spaces, basis, eigenvalues, diagonalization, and applications to dynamical systems.</p></section><section class="course"><h2>Complex Analysis and Vector Calculus</h2><p>Analytic functions, complex integration, vector fields, gradient, divergence, and curl.</p></section><section class="course"><h2>Electrical Engineering Laboratories</h2><p>Teaching activities involving transformers, three-phase circuits, and power electronics.</p></section><div class="notice">Course titles, institutions, teaching dates, and downloadable materials can be added once confirmed.</div></main>`};
 root.innerHTML=header+pages[page]+footer;
